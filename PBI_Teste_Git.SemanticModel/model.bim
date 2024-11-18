@@ -200,10 +200,11 @@
               },
               {
                 "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
+                "value": "{\"currencyCulture\":\"pt-BR\"}"
               }
             ],
             "dataType": "double",
+            "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
             "lineageTag": "d6bb21c6-515b-4132-9c03-006a70f7e4c9",
             "sourceColumn": "Total_Vendas",
             "summarizeBy": "sum"
